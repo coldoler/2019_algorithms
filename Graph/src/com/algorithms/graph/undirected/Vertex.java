@@ -14,11 +14,11 @@ public class Vertex {
         return this.label;
     }
 
-    public boolean isVisited() {
-        return this.visited;
-    }
-
     public void setVisited(boolean visited) {
         this.visited = visited;
+    }
+
+    public boolean isVisited() {
+        return this.visited;
     }
 }
